@@ -1,0 +1,152 @@
+.tetromino {
+    position: relative;
+}
+
+.tetromino span {
+    display: block;
+    width: 31px;
+    height: 31px;
+}
+
+/* I */
+.tetromino-i {
+    padding-top: 15px;
+}
+
+.tetromino-i span {
+    background-color: cyan;
+}
+
+.tetromino-i span:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+/* J */
+.tetromino-j {
+    padding-left: 22px;
+}
+
+.tetromino-j span {
+    background-color: blue;
+}
+
+.tetromino-j span:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+.tetromino-j span:last-child {
+    position: absolute;
+    bottom: 1px;
+    left: -10.6px;
+}
+
+/* S */
+.tetromino-s span {
+    background-color: green;
+}
+
+.tetromino-s span:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+.tetromino-s span:first-child {
+    position: absolute;
+    right: -31.8px;
+    top: 0;
+}
+
+.tetromino-s span:last-child {
+    position: absolute;
+    left: -31.8px;
+    bottom: 1px;
+}
+
+/* L */
+.tetromino-l {
+    padding-right: 22px;
+}
+
+.tetromino-l span {
+    background-color: orange;
+}
+
+.tetromino-l span:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+.tetromino-l span:last-child {
+    position: absolute;
+    bottom: 1px;
+    right: -10.6px;
+}
+
+/* O */
+.tetromino-o {
+    padding-right: 22px;
+}
+
+.tetromino-o span {
+    background-color: yellow;
+}
+
+.tetromino-o span:first-child {
+    position: absolute;
+    right: -11px;
+    top: 0;
+}
+
+.tetromino-o span:nth-child(2) {
+    margin-bottom: 1px;
+}
+
+.tetromino-o span:nth-child(3) {
+    margin-bottom: 1px;
+}
+
+.tetromino-o span:last-child {
+    position: absolute;
+    bottom: 1px;
+    right: -11px;
+}
+
+/* Z */
+.tetromino-z span {
+    background-color: red;
+}
+
+.tetromino-z span:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+.tetromino-z span:first-child {
+    position: absolute;
+    left: -31.8px;
+    top: 0;
+}
+
+.tetromino-z span:last-child {
+    position: absolute;
+    right: -31.8px;
+    bottom: 1px;
+}
+
+/* T */
+.tetromino-t span {
+    background-color: purple;
+}
+
+.tetromino-t span:not(:last-child) {
+    margin-bottom: 1px;
+}
+
+.tetromino-t span:nth-child(3) {
+    position: absolute;
+    left: -31.8px;
+    bottom: 0;
+}
+
+.tetromino-t span:last-child {
+    position: absolute;
+    right: -31.8px;
+    bottom: 1px;
+}
